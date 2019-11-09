@@ -1,0 +1,7 @@
+-keep class org.appspot.apprtc.** { *; }
+-keep class org.webrtc.** { *; }
+-keep class de.tavendo.autobahn.** { *; }
+
+-keepclasseswithmembernames class * { native <methods>; }
+
+-dontwarn android.support.**
